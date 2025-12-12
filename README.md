@@ -1,4 +1,4 @@
-![Weather Now Banner](assets/banner.jpeg)
+![Weather Now Banner](banner.jpeg)
 
 # Weather Now
 
@@ -24,4 +24,5 @@ Weather Now is a pixel-art styled Chrome extension that shows real-time weather 
 
 1. Clone or download this repository  
 2. Open Google Chrome and navigate to:
+
 
