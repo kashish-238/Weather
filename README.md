@@ -24,5 +24,29 @@ Weather Now is a pixel-art styled Chrome extension that shows real-time weather 
 
 1. Clone or download this repository  
 2. Open Google Chrome and navigate to:
+3. Enable **Developer mode** (top-right)  
+4. Click **Load unpacked**  
+5. Select the project folder  
+6. Pin **Weather Now** to the toolbar and open it  
 
+## Configuration
 
+This project requires an OpenWeather API key.
+
+1. Create a free account at https://openweathermap.org  
+2. Generate an API key  
+3. Open `script.js` and replace:
+```js
+const API_KEY = "YOUR_KEY_HERE";
+with your own API key.
+
+Note: New API keys may take a short time to activate.
+
+Permissions
+Geolocation – used to fetch weather data for your current location
+
+Host permissions – required to access OpenWeather API endpoints
+
+## Author
+
+GitHub: kashish-238
